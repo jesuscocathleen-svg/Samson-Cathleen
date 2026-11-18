@@ -1,0 +1,430 @@
+print("=====LEt'S LEARN TO CODE=====")
+print("="*30)
+print("   PHYTON TUTORIAL PROGRAM  ")
+print("="*30)
+
+
+while True: 
+    answer = input("ARE YOU WILLING TO LEARN? (Y) or (X) : ")
+    
+    if answer == "Y" :
+        print("\n====WELCOME TO THE WORLD OF FUNDAMENTALS OF PROGRAMMING====")
+        name = input("\nENTER USER'S NAME : ")
+        print(f"Hello {name}! ")
+        
+        print("WARNING: YOU ARE ABOUT TO LEARN A LOT! ")
+        print("Seven knowledge modules is being load.")
+        print("Learn all knowledge at your own risk! ")
+        input("Press Enter to enter the Syntax...")
+        
+        print("="*30)
+        print("SELECT A CHAPTER TO LEARN (0-7)")
+        print("""CHAPTER 1: Introduction to Programming 
+CHAPTER 2: Python Syntax 
+CHAPTER 3: Arithmetic Operators and Expressions 
+CHAPTER 4: Basic Input and Output 
+CHAPTER 5: Conditional Statements
+CHAPTER 6: Logical Operators 
+CHAPTER 7: Introduction to Iteration and Loops 
+0. Quit""")
+
+        ans_wer =int(input("Enter Chapter You want to learn : "))
+#CHAPTER 1        
+        if ans_wer == 1 : 
+            print("CHAPTER 1 : INTRODUCTION TO PROGRAMMING ")
+            print("""\nProgramming
+- A collection of instructions followed by a computer.
+
+Programming Language
+- a special language that computers understand and use to perform tasks.
+
+Phyton Programming
+ -A high-level, interpreted, and general purpose programming language designed to be simple, readable and easy to learn.
+ -A widely used programming language that was created by Guido Van Rossum in 1991
+
+Guido Van Rossum
+- is a Dutch software engineer best known for creating the Python programming language in 1991, designing it to be simple, readable, and accessible while remaining powerful enough for professional software development.
+
+
+ALGORITHM
+  -A step-by-step procedure for solving a problem.""")
+  
+            done = input("\nEnter Syntax if done. ")
+  
+            print("\nLet's break some Ice! Create  a Simple Algorithm")
+            task = input("Name a daily activity, such as making coffee or brushing teeth: ")
+    
+            print(f"\nCreate three steps for '{task}':")
+            step1 = input("Step 1: ")
+            step2 = input("Step 2: ")
+            step3 = input("Step 3: ")
+            print(f"""
+Your Algorithm: 
+Step 1:{step1} 
+Step 2:{step2}
+Step 3:{step3}""")
+            print("\nThat is an algorithm because the steps are arranged in order.")
+            print("\nEND OF CHAPTER 1")
+        
+            
+ ##CHAPTER2
+            
+        elif ans_wer == 2 : 
+            print("CHAPTER 2 : PHYTON SYNTAX ")
+            print("""\nPHYTON SYNTAX
+ 1. Phyton is Case Sensitive
+      - Phyton Treats uppercase and lowercase letters differently.
+ 2. Indentation
+      - Unlike other programming languages, Phyton uses indentation (spaces) to define blocks of code.
+
+PHYTON OUTPUT
+  a. Print Statement - the print() function displays information on the screen 
+   SYNTAX : print(value)
+   Example : print("HELLO WORLD") 
+   OUTPUT : "HELLO WORLD"
+
+  b. Printing Text - text also called a string must be enclosed in quotation marks.
+
+  c. Printing Numbers -  you can print numbers directly without quotation marks.
+
+
+PHYTON COMMENTS 
+- Comments are ignored by Phyton. They are used to explain the code.
+
+==VARIABLE, CONSTANTS, AND DATA TYPES IN PHYTON==
+
++VARIABLE+
+Is a named storage location used to keep data in a program. The value of a variable can change while the program is running
+
+example : a, b, c, age, name
+
+Variable Naming Rules
+>A variable can have a short name like x and y or a more descriptive name (age, surname, total_volume)
+>Must start with a letter or the underscore 
+>Cannot start with number
+>Case sensitive
+
+Assigned Value to Variable
+- In programming we store data in variables. We assign a value to a variable using the = assignment operator.
+
+Output Variables
+- The Phyton print() function is often used to output variables.
+- Your output multiple variables deperated by a comma.
+
++BASIC DATA INPUTS IN PYTHON+
+
+a. Data Types - Categories that tell Phyton what kind of data a variables stores. They tell Phyton what kind of data a variable stores. They determine the type of a value a variable can hold and what operations can be performed on that value.
+
+    i. Integers(int) -  Whole Numbers (no decimal part.)
+                example: 10, 25, -7, 100
+    ii. Float - Numbers with a decimal point.
+                example: 12.5, 3.14, -0.001. 2.0
+    iii. String(str) - Text or Character inside quotes
+                example: "Hello", "Juan", "CCST"  
+    iv. Boolean(bool) - Represents one of two values : True or False. 
+                example : True, False
+""")
+            dan = input("Enter Syntax if done. ")
+            
+            
+            print("\n LET'S BREAK SOME ICE!")
+            namee = input("Create a variable name for a player's special power: ")
+            value = input("Enter the value that should be stored in it : ")
+            print("\nYour imagined Python statement is:")
+            print(f'{namee} = "{value}"')
+            print("\nRepair the broken code:")
+            print('print("Welcome to Python"')
+
+            answer = input("""What is missing?
+
+A. Closing Parenthesis
+B. Plus Sign
+C. Colon
+
+[Choice : a, b, c]
+""" )
+
+            if answer == "a":
+                 print("Correct! The repaired code is:")
+                 print('print("Welcome to Python")')
+                 
+            else : 
+                print("The correct answer is A. The closing parenthesis is missing.")
+                
+            print("\nEND OF CHAPTER 2 ")    
+###CHAPTER3        
+        
+        elif ans_wer == 3 : 
+            print("CHAPTER 3 : ARITHMETIC OPERATORS AND EXPRESSIONS ")
+            print("""\nCHAPTER 3: ARITHMETIC OPERATORS AND EXPRESSIONS
+
+==Arithmetic Operators==
+- Symbols used to perform mathematical calculations on numbers, They work the same way as the operators used in everyday mathematics.
+
++ Addition (adds two values)
+   ++example : 5+5 = 10
+- Subtraction (Subtracts the second value from the first)
+   --example : 5-5 = 0
+*Multiplication (Multiplies two values.)
+   **example : 5*5 = 25
+/Division(float-divides two values and returns a decimal
+   //example : 15/3 = 5.0
+//Floor Division (Divides two values and returns the whole number part)
+   ////example : 17//3 = 5
+%Modulus (Returns the remainder of the division)
+   %%example : 10%3 = 1
+**Exponentiation (Raises the first value to the power of the second)
+   ****example : 2**3 = 8
+
+==Expressions in Phyton==
+- Is a combination of values, variables and operators that evaluate to a result.
+- Phyton follows the order of operations (PEMDAS)""")
+            oh = input("\nEnter Syntax if done. ")
+        
+            print("\nLET'S BREAK SOME ICE!")
+        
+            print("A locked gate displays the expression: 5 + 3 * 2")
+
+            while True:
+                try:
+                    answer = int(input("Enter the result to unlock the gate: "))
+                    if answer == 11:
+                        print("The gate opens! Multiplication happens before addition.")
+                        break
+
+                        print("Try again. Remember the order of operations.")
+                        
+                except:
+                    print("Please enter a whole number.")
+            
+            print("\nEND OF CHAPTER 3 ")
+
+
+
+###CHAPTER 4
+
+        elif ans_wer == 4 : 
+            print("CHAPTER 4 : BASIC INPUT AND OUTPUT")
+            print("""CHAPTER 4 : BASIC INPUT AND OUTPUT 
+
+=INPUT=
+- The input() function asks the user to enter information:
+
+    name = input("Enter your name: ")
+
+input() returns text, even when the user types a number.
+
+To perform arithmetic, convert the input:
+
+    age = int(input("Enter your age: "))
+    price = float(input("Enter a price: "))
+
+=OUTPUT=
+- The print() function displays information:
+
+    print("Hello, world!")
+
+=FLOAT INPUT=
+- For decimal numbers
+   
+     grade = float(input("Enter your Grade: ")
+     print(f"Your grade is {grade}")
+
+=Boolean= 
+- True or False using conditions
+   
+    answer = input("Are you tired? (yes/no)")
+    is_student = answer.lower === "yes"
+    print("Student status :", is student)""")
+    
+            tapos = input("Enter Synatx if done")
+            print("\nLET'S BREAK SOME ICE! " )
+            hero = input("\nEnter your hero name: ")
+            city = input("\nEnter the city you will protect: ")
+
+            while True:
+                try:
+                    power = int(input("Enter your power level from 1 to 100: "))
+                    if 1 <= power <= 100:
+                        break
+                    print("Enter a number from 1 to 100.")
+
+                except ValueError:
+                    print("Please enter a valid whole number.")
+
+            print("\nGenerated output:")
+            print(f"{hero} protects {city} with a power level of {power}!")
+            
+            print("END OF CHAPTER 4")
+        
+###CHAPTER 5        
+        elif ans_wer == 5 : 
+            print("CHAPTER 5 : CONDITIONAL STATEMENTS")
+            print("""CHAPTER 5 : CONDITIONAL STATEMENTS
+
+==CONDITIONAL STATEMENT==
+  - Allows a program to make a decisions based on whether a condition is True or False.
+     example : age = 18 
+               if age >= 18 : 
+                  print("You are an adult")
+==Relational Operators==
+  - Are used to compare two values. The result is always either True or False
+      example : score = 85
+      print(score >= 75)
+      OUTPUT : TRUE
+
+==IF Statement==
+  - executes a block of code only when a condition is true.
+      example : age = 28
+      if age >= 18
+       print("You are an adult")
+==IF-ELSE Statement 
+  - provides an alternative when the if condition is false.
+       example : score = 65
+       if score >= 75 : 
+          print ("Passed")
+       else: 
+          print ("Failed")
+          OUTPUT : FAILED
+==IF-ELIF-ELSE Statement==
+  - used when there are multiple conditions to evaluate. Phyton checks each condition from top to bottom and executes the first condition that is True.
+
+==Nested Condition== 
+  - is a condition inside another condition.""")
+  
+  
+            nge =input("\nEnter Syntax if done.")
+            print("\nCREATOR IS TIRED WALA MUNA TAYONG ICE BREAKER!")
+\
+                    
+###CHAPTER 6                    
+        elif ans_wer == 6:
+            print("""CHAPTER 6 : LOGICAL OPERATOR
+
+Logical operators combine or modify conditions.
+
+==AND==
+-Both conditions must be True:
+
+    age >= 18 and has_id == True
+
+==OR==
+-At least one condition must be True:
+
+    has_key == True or knows_password == True
+
+==NOT==
+-Reverses a Boolean value:
+
+    not door_locked
+
+[examples:]
+
+    True and True   -> True
+    True and False  -> False
+    True or False   -> True
+    not True        -> False""")
+    
+            hayst = input("\nEnter Syntax if done.")
+            print("LET'S BREAK SOME ICE!")
+            print("\nAnswer Correctly")
+            print("""is_raining = False
+
+if not is_raining: 
+   print("You can go outside.")
+else: 
+   print("Bring an umbrella!!!!!!!")""")
+   
+            while True:
+                ngee = input("\nWhat is the OUTPUT?")
+                
+                if ngee == "You can go outside" or "you can go outside":
+                    print("WoW GaLiNG")
+                    break
+                else:
+                    print("ge last chance")
+                    
+                
+            print("END OF CHAPTER 6")    
+            
+        elif ans_wer == 7 :
+            print("CHAPTER 7: ITERATION AND LOOPS")
+            print("""CHAPTER 7 : ITERATION AND LOOPS
+
+--FOR LOOP--
+
+A for loop is useful when the number of repetitions is known:
+
+    for number in range(1, 6):
+        print(number)
+
+This prints 1 through 5.
+
+--WHILE LOOP--
+
+A while loop repeats while a condition remains True:
+
+    energy = 3
+
+    while energy > 0:
+        print(energy)
+        energy -= 1
+
+Important loop concepts:
+
+    iteration   One repetition of a loop
+    break       Immediately exits a loop
+    continue    Skips to the next iteration""")
+    
+        
+            ayun = input("Enter Syntax if done.")
+            
+            while True: 
+                doneeee = input ("\nLast lesson na to gusto mo pa Ice Breaker?(Y or N) :  ")
+                
+                if doneeee == "Y":
+                    print("\nIhhhh sge na nga, Question nalang")
+                    print("\nWhich loop is commonly used when repetitions are known?")
+                    sagot = input("\nCHOICES[for loop, while loop, regine velasquez] : ")
+                    if sagot == "for loop": 
+                        print("\nThat's All phoewzx")
+                    elif sagot == "while loop":
+                        print("\naba! bat mali!!!>_<")
+                    else:
+                        print("\ntalaga lang ha!!?!?!?!??")
+                    break
+                else:
+                    print("Yun oh ayaw na mag isip >_<")
+                    break
+                    
+            print("END OF CHAPTER 7")
+            
+        else :
+            print("Enggggkkkkk ayaw?")
+            break
+    
+    else :
+        break
+                    
+                   
+            
+        
+        
+                
+    
+            
+            
+            
+                
+        
+
+
+
+        
+
+
+
+
+   
+    
+
